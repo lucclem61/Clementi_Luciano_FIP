@@ -100,6 +100,11 @@
     background: url(../images/I\ Like\ Photoshops\ 3.jpg) no-repeat;
     height: 200px;
  }
+
+ #hero1 {
+    background: url(../images/rooms/curtains.jpg) no-repeat;
+    height: 200px;
+ }
  
  .book-now {
     background-color: #9a2018;
@@ -147,6 +152,16 @@
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
+ }
+
+ #hero-summary1 ul {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+ .h4room {
+    margin-top: 20px;
  }
  
  /* 4. ---Main Hero Image Contact--- */
@@ -207,6 +222,11 @@
    background: url(../images/hi\ 22.jpg) no-repeat;
    height: 195px;
  }
+
+ #why-choose-us-hero-con1 {
+    background: url(../images/rooms/Masters.jpg) no-repeat;
+    height: 195px;
+ }
  
  #why-choose-us-heading-box {
     align-self: end;
@@ -262,6 +282,11 @@
  
  #about-hero-con {
     background: url(../images/boattt.jpg) no-repeat;
+    height: 195px;
+ }
+
+ #about-hero-con1 {
+    background: url(../images/rooms/Suite.jpg) no-repeat;
     height: 195px;
  }
  
@@ -334,6 +359,12 @@
  
  #contact-hero-con {
     background: url(../images/view.jpg) no-repeat;
+    height: 195px;
+    background-size: cover;
+ }
+
+ #contact-hero-con1 {
+    background: url(../images/rooms/Chalet.jpg) no-repeat;
     height: 195px;
     background-size: cover;
  }
