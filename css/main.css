@@ -242,28 +242,6 @@
  }
 
 
- .contact-info {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center items vertically */
-}
-
-.contact-item {
-    display: flex; /* Use flexbox for each contact item */
-    align-items: center; /* Center icon and text vertically */
-    margin-right: 20px; /* Space between contact items */
-}
-
-.contact-item i {
-    margin-right: 10px; /* Space between icon and text */
-}
-
-#hero-numbers,
-#hero-address {
-    margin: 0; /* Remove default margin from paragraphs */
-}
-
-
-
  
  .why-choose-us-image-con h2 {
     font-size: 14px;
