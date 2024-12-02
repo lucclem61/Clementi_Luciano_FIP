@@ -53,6 +53,16 @@
     padding: 0;
     margin: 0;
  }
+
+ #main-nav ul li a {
+    color: #ffffff; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+#main-nav ul li a:hover {
+    color: #9a2018; 
+}
  
  #main-nav ul li a {
     display: block;
