@@ -105,6 +105,12 @@
     background: url(../images/rooms/curtains.jpg) no-repeat;
     height: 200px;
  }
+
+ #hero2 {
+    background: url(../images/spa\ 1.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+ }
  
  .book-now {
     background-color: #9a2018;
@@ -227,6 +233,12 @@
     background: url(../images/rooms/Masters.jpg) no-repeat;
     height: 195px;
  }
+
+ #why-choose-us-hero-con2 {
+    background: url(../images/massage\ 1.jpg) no-repeat;
+    height: 195px;
+    background-size: cover;
+ }
  
  #why-choose-us-heading-box {
     align-self: end;
@@ -288,6 +300,12 @@
  #about-hero-con1 {
     background: url(../images/rooms/Suite.jpg) no-repeat;
     height: 195px;
+ }
+
+ #about-hero-con2 {
+    background: url(../images/Sauna\ 1.jpg) no-repeat;
+    height: 195px;
+    background-size: cover;
  }
  
  #about-hero-heading-box {
@@ -368,12 +386,23 @@
     height: 195px;
     background-size: cover;
  }
+
+ #contact-hero-con2 {
+    background: url(../images/aroma\ 1.jpg) no-repeat;
+    height: 195px;
+    background-size: cover;
+ }
  
  #contact-hero-heading-box {
     align-self: end;
  }
  
  #contact-hero-text {
+    margin-top: 15px;
+    margin-bottom: 25px;
+ }
+
+ #contact-hero-text1 {
     margin-top: 15px;
     margin-bottom: 25px;
  }
@@ -431,6 +460,7 @@
     font-size: 12px;
     margin-top: 40px;
     padding-bottom: 80px;
+    background-size: cover;
  }
  
  #footer-hero h3 {
