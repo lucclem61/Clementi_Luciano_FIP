@@ -2,16 +2,20 @@ body, p, h1, h2, h3, h4, h5 {
     margin: 0px; 
     padding: 0px;
  }
-
+ 
+ /* ---Utility Classes--- */
+ 
  .hidden {
     display: none;
  }
-
+ 
+ /* ---Mobile Library Grid Styles--- */
+ 
   .grid-con { 
     display: grid;
-    grid-template-columns: repeat(4, 73px);
+    grid-template-columns: repeat(12, 100px);
     column-gap: 30px;
-    max-width: 412px;
+    max-width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;

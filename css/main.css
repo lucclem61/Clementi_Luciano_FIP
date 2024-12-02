@@ -12,7 +12,6 @@
  
  a {
     text-decoration: none;
-    /* add */
  }
 
  
@@ -27,7 +26,6 @@
  }
  
  
- /* 2. ---Main Nav--- */
  #main-nav label img {
     width: 20px;
     height: 20px;
@@ -48,18 +46,6 @@
  #main-nav input:checked ~ label img {
     transform: rotate(90deg);
  }
- 
- 
- 
- 
- 
- /*   ~ sibling selector   */
- 
- 
- 
- 
-    /* add */
- 
  
  
  #main-nav ul {
@@ -87,15 +73,10 @@
     margin-bottom: 40px;
  }
  
- 
- 
  #logo {
     margin-bottom: 20px;
     max-width: 382px;
  }
- 
- 
- /* 3. ---Main Hero Image--- */
  
  #hero {
     background: url(../images/I\ Like\ Photoshops\ 3.jpg) no-repeat;
@@ -181,8 +162,6 @@
     margin-top: 20px;
  }
  
- /* 4. ---Main Hero Image Contact--- */
- 
  .fas {
     font-size: 42px;
     color: #9a2018;
@@ -207,9 +186,6 @@
     padding-bottom: 30px;
  }
  
- /* 5. ---Why Choose Us--- */
- 
- 
   #why-choose-us-nav {
     padding-top: 20px;
  }
@@ -228,8 +204,6 @@
    padding: 5px;
  }
  
- 
- /* add */
  #why-choose-us-nav ul li a.selected {
     border-left:  #9a2018 solid 5px;
  }
@@ -266,6 +240,30 @@
     margin-right: 20px;
     margin-top: 30px;
  }
+
+
+ .contact-info {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.contact-item {
+    display: flex; /* Use flexbox for each contact item */
+    align-items: center; /* Center icon and text vertically */
+    margin-right: 20px; /* Space between contact items */
+}
+
+.contact-item i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+#hero-numbers,
+#hero-address {
+    margin: 0; /* Remove default margin from paragraphs */
+}
+
+
+
  
  .why-choose-us-image-con h2 {
     font-size: 14px;
@@ -305,10 +303,7 @@
     padding: 5px;
     color: #fff;
  }
- 
- 
- /* 6. ---About & FAQ--- */
- 
+
  #about-hero-con {
     background: url(../images/boattt.jpg) no-repeat;
     height: 195px;
@@ -395,9 +390,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
  }
- 
- /* 7. ---Contact--- */
- 
+
  #contact-hero-con {
     background: url(../images/view.jpg) no-repeat;
     height: 195px;
@@ -421,8 +414,18 @@
     height: 195px;
     background-size: cover;
  }
+
+ #waterfall {
+    background: url(../images/waterfall\ 1.jpg) no-repeat;
+    height: 195px;
+    background-size: cover;
+ }
  
  #contact-hero-heading-box {
+    align-self: end;
+ }
+
+ #waterfall-hero-heading-box {
     align-self: end;
  }
  
@@ -476,11 +479,6 @@
      width: 150px;
      align-self: flex-end;
  }
- 
- /* add */
- 
- 
- /* 8. ---Footer--- */
  
  #footer-hero {
     background-image: url(../images/waterfall\ 2.jpg);
